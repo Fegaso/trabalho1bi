@@ -1,4 +1,4 @@
-* {
+*:not(fieldset) {
     padding: 0%;
     border: 0ch;
     margin: 0%;

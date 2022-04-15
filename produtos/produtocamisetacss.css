@@ -1,0 +1,42 @@
+
+main{
+    border: 2px solid black;
+    height: 625px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+figure{
+    border: 1px solid black;
+    padding:3px;
+    width:225px;
+    height:225px;
+    margin-left:60px;
+    margin-top:60px;
+    float:left;
+   
+}
+#informações{
+    float:left;
+    margin-left:120px;
+    margin-top:30px;
+    height:550px;
+    margin-right:5px;
+}
+.tamanhos{
+    border:1px solid black;
+    text-align:center;
+    margin-right:7px;
+    margin-left: 3px;
+    float:left;
+    width:20px;
+    height:20px;
+}
+table,td,tr,th{
+    margin-top: 5px;
+    border:1px solid black;
+    text-align:center;
+    padding:4px;
+}
+input{
+    margin-top: 30px;
+}

@@ -35,3 +35,6 @@ main {
 input{
     font-size:15px;
 }
+#pag{
+    border: 1px solid black;
+}

@@ -36,5 +36,11 @@ input{
     font-size:15px;
 }
 #pag{
-    border: 1px solid black;
+    line-height: 32px;
+    height: 35px;
+    border-radius: 5px;
+    width: 170px;
+text-align: center;
+    border: 1px solid gray;
+    background-color: silver;
 }

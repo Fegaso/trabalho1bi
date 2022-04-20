@@ -1,0 +1,44 @@
+main{
+    height: 600px;
+}
+form{
+    float:left;
+    margin-top: 80px;
+    margin-left:100px;
+    line-height:40px;
+    width: 200px;
+    margin-right: 100px;
+}
+#sublinhado{
+    text-decoration:underline;
+}
+.enfeite{
+    float:left;
+    border:1px solid black;
+    width:1px;
+    height:100px;
+    margin-right: 80px;
+    margin-top:220px;
+}
+#ou{
+    margin-top: 260px;
+    margin-right: 80px;
+    float:left;
+}
+#redessociais{
+    margin-top: 200px;
+    margin-left:40px;
+}
+.facebookgoogle{
+    font-size: 25px;
+    margin-top: 30px;
+    margin-left: 45px;
+    float:left;
+    margin-right: 50px;
+    background-color:white;
+    border: 1px solid black;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding:5px;
+}

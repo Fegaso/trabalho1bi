@@ -36,10 +36,10 @@ input{
     font-size:15px;
 }
 #pag{
-    line-height: 32px;
-    height: 35px;
+    line-height: 37px;
+    height: 30px;
     border-radius: 5px;
-    width: 170px;
+    width: 160px;
 text-align: center;
     border: 1px solid gray;
     background-color: silver;

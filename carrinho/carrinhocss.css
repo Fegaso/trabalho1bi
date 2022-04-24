@@ -37,6 +37,7 @@ input {
 }
 
 #pag {
+    color: black;
     width: 160px;
     padding: 2px 5px 2px 5px;
     border: 1px solid gray;

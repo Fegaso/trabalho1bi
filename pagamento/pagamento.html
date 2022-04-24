@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="../style.css">
+    <link rel="stylesheet" type="text/css" href="pagamentocss.css">
+    <title>Pagamento</title>
+</head>
+<body>
+  <header>
+        <a href="../index.html"><img src="../imagens/logo3.png" alt="estrela sendo usada como logo"></a>
+
+        <p>Este é um baaaaaaaanner</p>
+    </header>
+
+    <nav>
+        <div id="nav_1">
+            <a href="../lojas/nossaslojashtml.html">Nossas lojas</a>
+
+            <a href="../carrinho/carrinhohtml.html">Carrinho 🛒</a>
+
+            <a href="../sobre/sobre.html">Quem somos nós?</a>
+
+            <div>
+                <a href="../login/loginhtml.html">Login</a>
+
+                <a href="../cadastro/cadastrohtml.html">Criar conta</a>
+            </div>
+        </div>
+
+        <div id="nav_2">
+            <div class="categoria">
+                <p>Masculino ⬇</p>
+                <div class="extensao">
+                    <a href="../procuracamiseta/procuracamisetahtml.html">Camisas</a>
+                    <a href="../procuracamiseta/procuracamisetahtml.html">Jaquetas</a>
+                    <a href="../procuracamiseta/procuracamisetahtml.html">Calças</a>
+                </div>
+            </div>
+
+            <div class="categoria">
+                <p>Feminino ⬇</p>
+                <div class="extensao">
+                    <a href="../procuracamiseta/procuracamisetahtml.html">Camisas</a>
+                    <a href="../procuracamiseta/procuracamisetahtml.html">Jaquetas</a>
+                    <a href="../procuracamiseta/procuracamisetahtml.html">Calças</a>
+                </div>
+            </div>
+
+            <div class="categoria">
+                <p>Infantil ⬇</p>
+                <div class="extensao">
+                    <a href="../procuracamiseta/procuracamisetahtml.html">Camisas</a>
+                    <a href="../procuracamiseta/procuracamisetahtml.html">Jaquetas</a>
+                    <a href="../procuracamiseta/procuracamisetahtml.html">Calças</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div id="primeiracoluna">
+            <label for="formadepagamento">Forma de pagamento:</label>
+            <select id="formadepagamento" name="fpagamento">
+                <option>Cartão</option>
+            </select><br><br>
+            <label for="ncartao">Número do cartão:</label><br>
+            <input type="text" id="ncartao"><br><br>
+            <label for="nome">Nome completo:</label><br>
+            <input type="text" id="nome"><br><br>
+            <label for="endereco">Endereço de entrega:</label><br>
+            <input type="text" id="endereco"><br><br>
+            <label for="CPF">CPF:</label><br>
+            <input type="text" id="CPF">
+        </div>
+        <div id="segundacoluna">
+            Data de validade: <br>
+            <input class="data" type="number" placeholder="--">
+            <input class="data" type="number" placeholder="----"> <br><br>
+            <label for="cds">Código de segurança:</label> <br>
+            <input type="text" id="cds"> <br><br><br>
+            Total:
+            <div id="confirmar">Confirmar a compra</div>
+        </div>
+    </main>
+  <footer>
+        <p>Entre em contato com (99) +99 99999-9999</p>
+
+        <p>Ou use nosso e-maiL: guideb2@hotmail.com</p>
+    </footer>
+</body>
+</html>

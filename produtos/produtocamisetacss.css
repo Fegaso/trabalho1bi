@@ -1,41 +1,85 @@
-main{
-    border: 2px solid black;
-    height: 625px;
-    margin-top: 100px;
-    margin-bottom: 100px;
+
+#produto {
+    padding-top: 25px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
 }
-figure{
+
+#produto > * {
+    flex-grow: 1;
+    padding: 30px 0 10px 20px;
+}
+
+main img {
+    height: 300px;
     border: 1px solid black;
-    padding:3px;
-    width:225px;
-    height:225px;
-    margin-left:60px;
-    margin-top:60px;
-    float:left;
-   
+    border-radius: 5px;
 }
-#informações{
-    float:left;
-    margin-left:120px;
-    margin-top:30px;
-    height:550px;
-    margin-right:5px;
+
+figcaption {
+    width: 100%;
 }
-.tamanhos{
+
+#tamanhos {
+    display: flex;
+}
+
+#tamanhos > div {
     border:1px solid black;
+    border-radius: 3px;
     text-align:center;
-    margin-right:7px;
-    margin-left: 3px;
-    float:left;
-    width:20px;
-    height:20px;
+    margin:5px;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 10px;
+    background-color: white;
 }
-table,td,tr,th{
+
+#tamanhos >div:hover {
+    background-color: rgb(200, 200, 200);
+}
+
+td,tr,th {
     margin-top: 5px;
     border:1px solid black;
-    text-align:center;
     padding:4px;
 }
-input{
-    margin-top: 30px;
+
+table {
+    margin: 0px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+caption {
+    text-align: start;
+    margin-bottom: 5px;
+}
+
+#informações > h1 {
+    font-size: 50px;
+    line-height: 50px;
+}
+
+#informações > span:not(.avaliacao), figcaption {
+    line-height: 40px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+form > input {
+    width: 160px;
+    padding: 2px 5px 2px 5px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 15px;
+    background-color: silver;
+}
+
+form > input:hover {
+    cursor: pointer;
+    background-color: rgb(172, 172, 172);
 }

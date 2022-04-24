@@ -11,14 +11,13 @@ header {
     height: 55px;
     width: 100%;
     display: flex;
-    position: fixed;
     background-color: rgb(214, 200, 181);
 }
 
 header > a > img {
     height: 50px;
     width: 136.6061899679829px;
-    padding: 2.5px 5px 2.5px 5px;
+    padding: 2.5px 5px 0px 5px;
 }
 
 header > p {
@@ -31,8 +30,8 @@ nav {
     width: 100%;
     display: flex;
     flex-direction: column;
-    position: fixed;
-    top: 55px;
+    position: sticky;
+    top: 0;
     background-color: rgb(206, 199, 190);
     box-shadow: 0 3px 3px grey;
 }
@@ -42,7 +41,7 @@ nav div {
     flex-grow: 1;
 }
 
-nav a {
+nav a, nav p {
     flex-grow: 0.9;
     padding: 8px;
     margin: 1px;
@@ -53,8 +52,33 @@ nav a {
     background-color: rgb(197, 184, 166);
 }
 
-nav a:hover {
+nav a:hover, nav p:hover {
     background-color: rgb(165, 155, 142);
+}
+
+.categoria, .extensao {
+    flex-direction: column;
+}
+
+.extensao {
+    position: absolute;
+    display: none;
+    top: 112px;
+    min-width: 32.3%;
+}
+
+.extensao > a {
+    border: 1px solid rgb(216, 209, 200);
+    border-radius: 10px;
+    background-color: rgb(207, 194, 176);
+}
+
+.extensao > nav a:hover{
+    background-color: rgb(175, 165, 152);
+}
+
+.categoria:hover > .extensao {
+    display: flex;
 }
 
 #nav_1 > div {
@@ -62,13 +86,19 @@ nav a:hover {
 }
 
 #nav_1 > a {
-    padding-top: 25px;
+    padding-top: 22px;
     font-size: 19px;
 }
 
+#nav_1 > div > a {
+    font-size: 0.9em;
+}
+
 main {
+    min-height: 415px;
+    min-width: 90%;
+    padding: 0 5% 30px 5%;
     font-family: 'Roboto';
-    padding: 169px 5% 30px 5%;
     background-color: antiquewhite;
 }
 
@@ -77,49 +107,9 @@ main > h1 {
     font-size: 50px;
 }
 
-#ofertas {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.produtos {
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1;
-    align-items: center;
-    padding: 5px 5px 0 5px;
-    margin: 25px 20px 0 20px;
-}
-
-.produtos:hover > .imagem {
-    box-shadow: 0px 0px 5px gray;
-}
-
-.nome {
-    padding-top: 5px;
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.antigo {
-    padding-top: 3px;
-    font-size: 18px;
-    text-decoration-line: line-through;
-    color: rgb(0, 0, 0, 0.75);
-}
-
-.atual {
-    font-size: 19px;
-    font-weight: bold;
-}
-
-.produtos:hover > *:not(.imagem) {
-    text-shadow: 0px 0px 1px gray;
-}
-
 footer {
-    height: 75px;
-    padding-top: 10px;
+    min-height: 75px;
+    padding: 10px;
     background-color: rgb(226, 212, 193);
 }
 

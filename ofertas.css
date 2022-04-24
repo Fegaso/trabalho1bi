@@ -1,0 +1,58 @@
+#ofertas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#ofertas > a {
+    flex-grow: 1;
+    align-items: center;
+}
+
+.produtos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px 5px 0 5px;
+    margin: 30px 20px 20px 20px;
+}
+
+.descricao {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+
+.imagem {
+    height: 300px;
+    border-radius: 5px;
+}
+
+a:hover > .produtos > .imagem {
+    box-shadow: 0px 0px 5px gray;
+}
+
+.nome {
+    padding-top: 5px;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.antigo {
+    padding-top: 3px;
+    font-size: 26px;
+    text-decoration-line: line-through;
+    color: rgb(0, 0, 0, 0.75);
+}
+
+.atual {
+    font-size: 27px;
+    font-weight: 600;
+}
+
+a:hover > .produtos > *:not(.imagem) {
+    text-shadow: 0px 0px 1px rgb(143, 143, 143);
+}

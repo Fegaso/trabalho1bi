@@ -19,7 +19,7 @@
         <div id="nav_1">
             <a href="../lojas/nossaslojashtml.html">Nossas lojas</a>
 
-            <a href="../carrinho/carrinhohtml.html">Carrinho</a>
+            <a href="../carrinho/carrinhohtml.html">Carrinho 🛒</a>
 
             <a href="../sobre/sobre.html">Quem somos nós?</a>
 
@@ -31,33 +31,61 @@
         </div>
 
         <div id="nav_2">
-            <a href="">Masculino v</a>
+            <div class="categoria">
+                <p>Masculino ⬇</p>
+                <div class="extensao">
+                    <a href="../procuracamiseta/procuracamisetahtml.html">Camisas</a>
+                    <a href="../procuracamiseta/procuracamisetahtml.html">Jaquetas</a>
+                    <a href="../procuracamiseta/procuracamisetahtml.html">Calças</a>
+                </div>
+            </div>
 
-            <a href="">Feminino v</a>
+            <div class="categoria">
+                <p>Feminino ⬇</p>
+                <div class="extensao">
+                    <a href="../procuracamiseta/procuracamisetahtml.html">Camisas</a>
+                    <a href="../procuracamiseta/procuracamisetahtml.html">Jaquetas</a>
+                    <a href="../procuracamiseta/procuracamisetahtml.html">Calças</a>
+                </div>
+            </div>
 
-            <a href="">Infantil v</a>
+            <div class="categoria">
+                <p>Infantil ⬇</p>
+                <div class="extensao">
+                    <a href="../procuracamiseta/procuracamisetahtml.html">Camisas</a>
+                    <a href="../procuracamiseta/procuracamisetahtml.html">Jaquetas</a>
+                    <a href="../procuracamiseta/procuracamisetahtml.html">Calças</a>
+                </div>
+            </div>
         </div>
     </nav>
 
     <main>
+        <h1>Meu carrinho 🛒</h1>
+
         <div id="carrinho">
             <div id="primeiracoluna">
-                <div id="meucarrinho">Meu carrinho:</div>
                 <div class="compras"><h2>Compras</h2></div>
+
                 <div class="compras"><h2>Compras</h2></div>
-                <div class="compras"><h2>Compras</h2></div>
-                <br>
-            <h2>Subtotal:</h2>
+                
+                <div class="compras"><h2>Compras</h2></div><br><br>
+
+                <span class="preco">Subtotal: R$XX,XX</span><br>
             </div>
 
             <div id="segundacoluna">
                 <form method="post" action = "naomudanada">
-                    <label for="cep"><h2>Cep:</h2></label>
-                    <input type="name" id="cep" name="cep" placeholder="xxxxx-xxx">
+                    <label for="cep">Cep:</label><br>
+
+                    <input type="text" id="cep" name="cep" placeholder="XXXXX-XXX"><br><br>
+
+                    <span class="preco">Frete: R$XX,XX</span><br><br>
+
+                    <span class="preco">Total: R$XX,XX</span><br><br>
+
+                    <span id="pag">Ir para o pagamento</span>
                 </form> 
-                <h2>Frete:</h2><br>
-                <h2>Total:</h2><br>
-                <h4 id="pag">Ir para o pagamento</h4>
             </div>
         </div>
     </main>

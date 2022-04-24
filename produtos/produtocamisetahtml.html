@@ -5,54 +5,129 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>produto (camiseta)</title>
-    <link rel=stylesheet type="text/css" href="produtocamisetacss.css">
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <link rel=stylesheet type="text/css" href="./produtocamisetacss.css">
 </head>
 <body>
-    <main>
-        <figure>
-            <img src="camiseta.jpeg" alt="imagem de camiseta"/>
-            <figcaption><h3>Descrição<br>............</h3></figcaption>
-        </figure>
-        <div id="informações">
-        <h1>Camiseta Black Sabbath</h1>
-        <h3>★★★★★ (1) <br><br>Preço: <br><br>Tamanhos: </h3>
-    <div class="tamanhos">P</div>
-    <div class="tamanhos">M</div>
-    <div class="tamanhos">G</div>
-<br>
-   <table>
-       <caption><h3>Tabela de medidas (cm):</h3></caption>
-       <thead>
-           <tr>
-        <th></th>
-        <th>Altura</th>
-        <th>largura</th>
-           </tr>
-       </thead>
-       <tbody>
-           <tr>
-               <td>P</td>
-               <td>x</td>
-               <td>y</td>
-           </tr>
-           <tr>
-               <td>M</td>
-               <td>x + 2</td>
-               <td>y + 2</td>
-           </tr>
-           <tr>
-               <td>G</td>
-               <td>X + 4</td>
-               <td>y + 4</td>
-           </tr>
-       </tbody>
-   </table>
-   <form method="post" action = "naomudanada"> 
-    <input type="submit" name="enviar" value="Adicionar ao carrinho">
-    </form>
-    </div>
-    
+    <header>
+        <a href="../index.html"><img src="../imagens/logo3.png" alt="estrela sendo usada como logo"></a>
 
+        <p>Este é um baaaaaaaanner</p>
+    </header>
+
+    <nav>
+        <div id="nav_1">
+            <a href="../lojas/nossaslojashtml.html">Nossas lojas</a>
+
+            <a href="../carrinho/carrinhohtml.html">Carrinho 🛒</a>
+
+            <a href="../sobre/sobre.html">Quem somos nós?</a>
+
+            <div>
+                <a href="../login/loginhtml.html">Login</a>
+
+                <a href="../cadastro/cadastrohtml.html">Criar conta</a>
+            </div>
+        </div>
+
+        <div id="nav_2">
+            <div class="categoria">
+                <p>Masculino ⬇</p>
+                <div class="extensao">
+                    <a href="../procuracamiseta/procuracamisetahtml.html">Camisas</a>
+                    <a href="../procuracamiseta/procuracamisetahtml.html">Jaquetas</a>
+                    <a href="../procuracamiseta/procuracamisetahtml.html">Calças</a>
+                </div>
+            </div>
+
+            <div class="categoria">
+                <p>Feminino ⬇</p>
+                <div class="extensao">
+                    <a href="../procuracamiseta/procuracamisetahtml.html">Camisas</a>
+                    <a href="../procuracamiseta/procuracamisetahtml.html">Jaquetas</a>
+                    <a href="../procuracamiseta/procuracamisetahtml.html">Calças</a>
+                </div>
+            </div>
+
+            <div class="categoria">
+                <p>Infantil ⬇</p>
+                <div class="extensao">
+                    <a href="../procuracamiseta/procuracamisetahtml.html">Camisas</a>
+                    <a href="../procuracamiseta/procuracamisetahtml.html">Jaquetas</a>
+                    <a href="../procuracamiseta/procuracamisetahtml.html">Calças</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <div id="produto">
+            <figure>
+                <img src="../imagens/camisa.jpg" alt="imagem de camiseta"/>
+
+                <figcaption><br>Descrição:<br>............</figcaption>
+            </figure>
+
+            <div id="informações">
+                <h1>Camiseta de Banda</h1>
+
+                <span id="avaliacao">★★★★★ (1)</span><br><br>
+
+                <span>Preço: R$XX,XX</span><br><br>
+
+                <span>Tamanho:</span><br>
+
+                <div id="tamanhos">
+                    <div>P</div>
+
+                    <div>M</div>
+
+                    <div>G</div>
+                </div><br><br>
+
+                <table>
+                    <caption><h3>Tabela de medidas (cm):</h3></caption>
+
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th>Altura</th>
+                            <th>largura</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>P</td>
+                            <td>x</td>
+                            <td>y</td>
+                        </tr>
+
+                        <tr>
+                            <td>M</td>
+                            <td>x + 2</td>
+                            <td>y + 2</td>
+                        </tr>
+
+                        <tr>
+                            <td>G</td>
+                            <td>X + 4</td>
+                            <td>y + 4</td>
+                        </tr>
+                    </tbody>
+                </table><br><br>
+
+                <form method="post" action = "naomudanada"> 
+                    <input type="submit" name="enviar" value="Adicionar ao carrinho">
+                </form>
+            </div>
+        </div>
     </main>
+
+    <footer>
+        <p>Entre em contato com (99) +99 99999-9999</p>
+
+        <p>Ou use nosso e-maiL: guideb2@hotmail.com</p>
+    </footer>
 </body>
 </html>

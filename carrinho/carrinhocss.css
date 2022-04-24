@@ -1,46 +1,52 @@
-main {
-    height: 600px;
-}
-
 #carrinho {
     display: flex;
+    flex-wrap: wrap;
+    width: 75%;
 }
 
-#primeiracoluna{
-    margin-left: 100px;
-    margin-top: 50px;
-}
-
-#meucarrinho{
-    font-weight:bold;
-    font-size:48px;
+#carrinho > * {
+    flex-grow: 1;
+    padding: 30px 0 10px 20px;
 }
 
 .compras{
-    border: 1px solid black;
-    background-color:white;
-    text-align:center;
-    width: 270px;
     height: 70px;
+    width: 270px;
     padding: 10px;
-    margin-top: 20px;
+    border: 1px solid black;
+    margin: 20px 0 10px 0;
+    text-align:center;
+    line-height: 64px;
+    background-color: white;
 }
 
 #segundacoluna{
     line-height:40px;
-    margin-top:70px;
-    margin-left:300px;
 }
 
-input{
+label, .preco {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+input {
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 5px;
     font-size:15px;
 }
-#pag{
-    line-height: 30px;
-    height: 30px;
-    border-radius: 5px;
+
+#pag {
     width: 160px;
-text-align: center;
+    padding: 2px 5px 2px 5px;
     border: 1px solid gray;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 15px;
     background-color: silver;
+}
+
+#pag:hover {
+    cursor: pointer;
+    background-color: rgb(172, 172, 172);
 }

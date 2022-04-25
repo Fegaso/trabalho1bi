@@ -20,7 +20,7 @@ header {
 }
 
 .logo > img {
-    position: fixed;
+    position: absolute;
     height: 50px;
     width: 136.6061899679829px;
     padding: 2.5px 5px 0px 5px;

@@ -19,22 +19,22 @@ header {
     background-color: rgb(214, 200, 181);
 }
 
-header > a > img {
+.logo > img {
+    position: fixed;
     height: 50px;
     width: 136.6061899679829px;
     padding: 2.5px 5px 0px 5px;
 }
 
-header > p {
+.banner {
     flex-grow: 1;
-    padding-top: 17px;
-    text-align: center;
 }
 
-header > img {
+.banner > img {
     height: 55px;
-    flex-grow: 1;
+    width: 100%;
 }
+
 nav {
     width: 100%;
     display: flex;
@@ -121,7 +121,7 @@ main  * {
 
 main > h1 {
     padding-top: 25px;
-    font-size: 50px;
+    font-size: 51px;
 }
 
 footer {

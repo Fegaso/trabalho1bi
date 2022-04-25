@@ -6,7 +6,6 @@
 
 #ofertas > a {
     flex-grow: 1;
-    align-items: center;
 }
 
 .produtos {
@@ -17,22 +16,16 @@
     margin: 30px 20px 20px 20px;
 }
 
-.descricao {
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1;
-    text-align: center;
-    color: black;
-    text-decoration: none;
-}
-
 .imagem {
     height: 300px;
     border-radius: 5px;
 }
 
-a:hover > .produtos > .imagem {
-    box-shadow: 0px 0px 5px gray;
+.descricao {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    text-align: center;
 }
 
 .nome {
@@ -53,6 +46,6 @@ a:hover > .produtos > .imagem {
     font-weight: 600;
 }
 
-a:hover > .produtos > *:not(.imagem) {
-    text-shadow: 0px 0px 1px rgb(143, 143, 143);
+a:hover > .produtos > .imagem {
+    box-shadow: 0px 0px 5px gray;
 }

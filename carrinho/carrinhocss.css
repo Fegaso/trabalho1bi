@@ -25,8 +25,8 @@
 }
 
 label, .preco {
-    font-weight: bold;
     font-size: 20px;
+    font-weight: bold;
 }
 
 input {
@@ -37,8 +37,6 @@ input {
 }
 
 #pag {
-    text-decoration:none;
-    color: black;
     width: 160px;
     padding: 2px 5px 2px 5px;
     border: 1px solid gray;
@@ -49,6 +47,5 @@ input {
 }
 
 #pag:hover {
-    cursor: pointer;
     background-color: rgb(172, 172, 172);
 }

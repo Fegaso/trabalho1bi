@@ -1,9 +1,9 @@
 
 #produto {
-    padding-top: 25px;
-    width: 80%;
     display: flex;
     flex-wrap: wrap;
+    width: 80%;
+    padding-top: 25px;
 }
 
 #produto > * {
@@ -17,8 +17,15 @@ main img {
     border-radius: 5px;
 }
 
-figcaption {
-    width: 100%;
+#informações > h1 {
+    font-size: 50px;
+    line-height: 50px;
+}
+
+#informações > span:not(.avaliacao), figcaption {
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: bold;
 }
 
 #tamanhos {
@@ -26,14 +33,14 @@ figcaption {
 }
 
 #tamanhos > div {
+    padding: 10px;
     border:1px solid black;
     border-radius: 3px;
-    text-align:center;
     margin:5px;
-    padding: 10px;
+    text-align:center;
     font-size: 15px;
-    font-weight: 600;
     line-height: 10px;
+    font-weight: 600;
     background-color: white;
 }
 
@@ -41,10 +48,9 @@ figcaption {
     background-color: rgb(200, 200, 200);
 }
 
-td,tr,th {
-    margin-top: 5px;
-    border:1px solid black;
-    padding:4px;
+caption {
+    text-align: start;
+    margin-bottom: 5px;
 }
 
 table {
@@ -53,23 +59,13 @@ table {
     text-align: center;
 }
 
-caption {
-    text-align: start;
-    margin-bottom: 5px;
+td,tr,th {
+    margin-top: 5px;
+    border:1px solid black;
+    padding:4px;
 }
 
-#informações > h1 {
-    font-size: 50px;
-    line-height: 50px;
-}
-
-#informações > span:not(.avaliacao), figcaption {
-    line-height: 40px;
-    font-weight: bold;
-    font-size: 20px;
-}
-
-form > input {
+button {
     width: 160px;
     padding: 2px 5px 2px 5px;
     border: 1px solid gray;
@@ -79,7 +75,7 @@ form > input {
     background-color: silver;
 }
 
-form > input:hover {
+button:hover {
     cursor: pointer;
     background-color: rgb(172, 172, 172);
 }

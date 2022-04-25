@@ -1,6 +1,6 @@
 main {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
@@ -10,7 +10,7 @@ main > * {
 
 form {
     font-size: 20px;
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
 fieldset {
@@ -35,20 +35,17 @@ fieldset > input {
     font-size: 0.75em;
 }
 
-fieldset > a {
-    color: black;
-}
-
 #enfeite {
     height:100px;
     width: 100px;
     border-left: 2px solid black;
     border-right: 2px solid black;
+    margin: 0 100px 0 100px;
     text-align: center;
 }
 
 #enfeite > p {
-    padding-top: 30px;
+    padding-top: 35px;
     font-size: 20px;
     font-weight: bold;
 }
@@ -60,10 +57,8 @@ fieldset > a {
 }
 
 .facebookgoogle {
-    padding:15px;
+    height: 25px;
+    padding:5px;
     border: 1px solid black;
-    text-align: center;
-    font-size: 25px;
-    line-height: 10px;
-    background-color:white;
+    background-color: white;
 }

@@ -1,40 +1,38 @@
-main {
-    height: 650px;
+form {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    margin-top: 30px;
     font-size: 20px;
     line-height: 40px;
+    font-weight: bold;
 }
-#primeiracoluna{
-    margin-top: 75px;
-    margin-left: 100px;
-    height: 525px;
-    float:left;
+
+form > * {
+    flex-grow: 1;
 }
-#segundacoluna{
-    width: 600px;
-    margin-left: 80px;
-    margin-top: 154px;
-    float:left;
-    height:440px;
-}
+
 .data{
     width: 50px;
 }
-select{
-    border: 1px solid black;
-}
-input{
-    border: 1px solid black;
-    border-radius: 5px;
-}
-#confirmar{
-    padding:1px;
-    font-size: 16px;
-    margin-top:84px;
-    line-height: 16px;
-    height: 25px;
-    border-radius: 5px;
-    width: 150px;
-text-align: center;
+
+input, select{
+    padding: 5px;
     border: 1px solid gray;
+    border-radius: 5px;
+    font-size:15px;
+}
+
+#confirmar{
+    width: 160px;
+    padding: 2px 5px 2px 5px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 15px;
     background-color: silver;
+}
+
+#confirmar:hover {
+    background-color: rgb(172, 172, 172);
 }

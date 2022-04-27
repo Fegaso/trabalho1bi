@@ -109,7 +109,7 @@ nav a:hover, nav p:hover {
 }
 
 main {
-    min-height: 415px;
+    min-height: 70vh;
     min-width: 89%;
     padding: 0 5.5% 30px 5.5%;
     background-color: antiquewhite;

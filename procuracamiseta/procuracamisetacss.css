@@ -43,3 +43,36 @@ a:hover > .produtos > .imagem {
 .custo {
     font-size: 19px;
 }
+
+#ad {
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    width: 93%;
+    padding: 0 20% 0 20%;
+    background-image: url(../imagens/ad.jpg);
+}
+
+#ad > div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#ad > div > span {
+    padding-top: 17px;
+    color: azure;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#ad:hover > div > span {
+    text-decoration: underline;
+}
+
+#ad:hover {
+    height: 105px;
+    box-shadow: -3px 3px 3px grey;
+
+}
